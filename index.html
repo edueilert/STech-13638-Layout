@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>PáginaDoEdu</title>
+    <meta charset="utf-8">
+	<meta name="author" content="Eduardo Rodrigues">
+	<meta name="viewport" content=
+	"width-device-width, initial-scale=1.0">
+	<meta name="keywords" content="html, css">
+	<meta name="description" content="Layout html">
+	<!-- estilo CSS -->
+	<link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+	<header>
+		<h1>Layout HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Conteúdo</a>
+			</li>
+			<li>
+				<a href="#">Galeria</a>
+			</li>
+			<li>
+				<a href="#">Contato</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="esquerda">
+			<h2>Sobre</h2>
+			<p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Diuretics paradis num copo é motivis de denguis.Si num tem leite então bota uma pinga aí cumpadi!Detraxit consequat et quo num tendi nada. 
+			</p>
+			<h2>Histórico</h2>
+			<p>Mussum Ipsum, cacilds vidis litro abertis.</p>
+			<div class="imgFake" style="height: 200px">
+			Imagem 1
+			</div>
+			<div class="imgFake" style="height: 200px">
+			Imagem 2
+			</div>
+			<div class="imgFake" style="height: 200px">
+			Imagem 3
+			</div>
+		</div>
+		<div class="conteudo">
+			<h2>Conteudo da Página</h2>
+			<h5>
+				<script>
+					/*<!-- JS para pegar a data atual -->*/
+					date = new Date().toLocaleDateString();
+					document.write(date);
+				</script>
+			</h5>
+			<div class="imgFake" style="height: 200px">
+			Imagem 1
+			</div>
+			<div class="imgFake" style="height: 200px">
+			Imagem 2
+			</div>
+			<div class="imgFake" style="height: 200px">
+			Imagem 3
+			</div>
+			<div class="imgFake" style="height: 200px">
+			Imagem 4
+			</div>
+			<p>Mussum Ipsum ...</p>
+			<p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Diuretics paradis num copo é motivis de denguis.Si num tem leite então bota uma pinga aí cumpadi!Detraxit consequat et quo num tendi nada. 
+			</p>
+			<picture>
+				<source media="(min-width: 600px)"
+				srcset="./Imagens/imgMedia.jpg" 
+				width="600px">
+				<source media="(min-width: 465px)"
+				srcset="./Imagens/imgPequena.jpg" >
+				<img src="./Imagens/caminho.jpg"
+				alt="Caminho entre árvores"
+				style="max-width: 100%; height: auto">
+			</picture>
+			<br>
+			<h2>Subtitulo...</h2>
+			<h5>13/06/2022</h5>
+			<p>Mussunzinho</p>
+			<p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Diuretics paradis num copo é motivis de denguis.Si num tem leite então bota uma pinga aí cumpadi!Detraxit consequat et quo num tendi nada. 
+			</p>
+		</div>
+		<div class="footer">
+			<h2>Footer</h2>&copy; Todos os direitos reservados. Edu Rodrigues.
+		</div>
+	</div>
+	</body>
+  </html>
+  
